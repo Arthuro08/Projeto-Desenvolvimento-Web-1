@@ -1,17 +1,90 @@
+/*ISSO AQUI NAO SEI QUEM FEZ*/
 #busca-texto{
     float:left;
     background-color:transparent;
     padding-left:5px;
     font-style:italic;
-    font-size:18px;
+    font-size:13px;
     border:none;
     height:32px;
     width:260px;
+    margin-left:5px;
 }
 
 #caixa-busca{
-    background-color:#2F4F4F;
+    background-color: white;
     border:solid 1px;
     border-radius:15px;
     width:300px;
+    text-align: center;
+    margin: auto;
+}
+
+/*ESTILIZAÇÃO GERAL*/
+body{
+    text-align: center;
+    font-family: cursive;
+}
+
+header{
+    background-color: #F79326;
+    text-decoration: none;
+    color:#ffffff;
+    padding-top: 10px;
+}
+
+header nav{
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: ease-in-out 0.3s;
+}
+
+header nav a:hover {
+    color: #FFF533;
+}
+
+footer{
+    background-color: #F79326;
+    color: white;
+}
+
+footer nav a .fa {
+    font-size: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white; 
+}
+
+/* ESTILIZAÇÃO TELA DE LOGIN*/
+.login {
+    max-width: 360px;
+    margin: 30px auto;
+    padding: 30px 25px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login input{
+    border-radius: 5px;
+}
+
+.login button{
+    transition: ease-in-out 0.3s;
+    border-radius: 5px;
+}
+
+.login button:hover{
+    background-color: #F1473A;
+    color: white;
 }
